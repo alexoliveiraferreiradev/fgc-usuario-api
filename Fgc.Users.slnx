@@ -5,5 +5,9 @@
     <Project Path="src/Fcg.Users.Domain/Fcg.Users.Domain.csproj" Id="bd00d9a3-4cd9-4e48-bf93-c427b6930ba2" />
     <Project Path="src/Fcg.Users.Infrastructure/Fcg.Users.Infrastructure.csproj" Id="c9f392f4-e446-4c74-bdd3-cb0b3393c8a7" />
   </Folder>
-  <Folder Name="/tests/" />
+  <Folder Name="/tests/">
+    <Project Path="tests/Fcg.Users.Application.UnitTests/Fcg.Users.Application.UnitTests.csproj" Id="99cfb0c1-c680-456f-bde0-22c56c4087dc" />
+    <Project Path="tests/Fcg.Users.Domain.Tests/Fcg.Users.Domain.Tests.csproj" Id="1c43e102-6cbf-413b-9674-4ef4fa873503" />
+    <Project Path="tests/Fcg.Users.Infrastructure.Integration/Fcg.Users.Infrastructure.Integration.csproj" Id="384982d0-b018-41c1-bd21-6b120b736ced" />
+  </Folder>
 </Solution>
